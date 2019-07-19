@@ -9,8 +9,6 @@
 ?>
 
 
-
-
 <div class="container">
     <div class="row">        
         <div class='col-sm-4' style="margin: 10px;">
