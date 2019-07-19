@@ -6,12 +6,12 @@
 
     require_once 'app/header.php';
 
-    $categories = get_category_by_id($category[id]);    
+    $categories = get_category_by_id($categories['id']);    
     $post = get_posts();
 ?>
 
 <pre>
-    <?=print_r($categories);?>
+    <?=print_r($categories['id']);?>
 </pre>
 
 <?php foreach($categories as $category): ?>

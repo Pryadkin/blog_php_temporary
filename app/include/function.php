@@ -39,12 +39,13 @@
     }
 
 
+
     function get_category_by_id($category_id) {
         global $link;
 
         // print_r($category_id);
 
-        $sql = "SELECT * FROM `posts` WHERE category_id = "."$category_id";
+        $sql = "SELECT * FROM `posts` WHERE category_id = "."'$category_id'";
 
         $result = mysqli_query($link, $sql);
 
